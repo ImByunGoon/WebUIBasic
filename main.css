@@ -1,0 +1,171 @@
+
+
+body {
+	width:1000px;
+	height: 1500px;
+	
+	margin: 0px;
+	background-color: #dfdfdf;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	list-style-type: none;
+
+}
+
+#top{
+	position: relative;
+	left:0;
+	top:0;
+	width:1000px;
+	height:70px;
+	
+}
+#search{
+
+  position: absolute;
+  left:205px;
+  top:20px;
+  
+}
+#search > button{
+	position: absolute;
+	left:405px;
+	top:0px;
+	border: 1px solid #515C5C;
+	border-radius: 0px;
+	width: 35px;
+	height: 36px;
+	
+
+
+	background:url(search.png);
+	background-repeat: no-repeat;
+	background-color: #A2B8B8;
+}
+
+#search > input{
+	width: 400px;
+	height: 30px;
+	
+}
+#topmenu{
+	position: absolute;
+	left:800px;
+	top:10px;
+
+	width: 300px;
+	height: 60px;
+}
+
+.top-menu-btn{
+	float: left;
+	margin: 5px;
+	width: 50px;
+	height: 40px;
+	
+}
+#logo {
+	width:200px;
+	height:70px;
+	
+}
+#contents{
+	position: static;
+}
+#sidenav{
+	position: relative;
+
+	width: 200px;
+	height:400px;
+
+	background-color: #f1f1f1;
+	
+}
+#sidenav > img{
+	position: static;
+	width:200px;
+	height:60px;
+	background-color: #3385FF;
+}
+#sidenav > #shortcut{
+	position: absolute;
+	top:40px;
+	background-color: #000000;
+}
+.side-list{
+	width:140px;
+	height: 40px;
+	padding-left: 23px;
+	padding-top: 10px;
+}
+#topnav{
+	position: absolute;
+	left: 200px;
+
+	width: 900px;
+	height: 60px;
+
+	background-color: #ffffff;
+}
+#topnav .left-nav{
+	float: left;
+	width: 80px;
+	height: 40px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#topnav #right-btn{
+	position: absolute;
+	left: 600px;
+}
+#topnav button{
+margin: 10px;
+width: 80px;
+height: 40px;
+
+background-color: #ffffff;
+border:1px solid #c9c9c9;
+border-radius: 2px;
+}
+#books {
+	position: absolute;
+
+	left: 200px;
+	top: 160px;
+}
+.bookcase{
+	position: static;
+	width: 800px;
+	height: 430px;
+	
+}
+.book-solo{
+	width:160px;
+	height:330px;
+	
+	margin: 5px;
+	border-radius: 2px;
+	background-color: #ffffff;
+}
+.book-solo .book-name{
+	margin: 5px;
+	font-size: 20px;
+}
+.book-solo .book-author{
+	margin:5px;
+	font-size: 15px;
+	font-color: #c9c9c9;
+}
+.book-solo .book-price{
+	position: relative;
+	top:30px;
+	left:100px;
+}
+.bookcase >ul>li>ul>li{
+	float:left;
+}
